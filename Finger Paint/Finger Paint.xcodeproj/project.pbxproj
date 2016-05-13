@@ -14,6 +14,7 @@
 		58587DD61CE658E100A362F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58587DD51CE658E100A362F0 /* Assets.xcassets */; };
 		58587DD91CE658E100A362F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58587DD71CE658E100A362F0 /* LaunchScreen.storyboard */; };
 		58587DE51CE65F4700A362F0 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58587DE41CE65F4700A362F0 /* CanvasView.m */; };
+		58587DE81CE674C100A362F0 /* OldCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58587DE71CE674C100A362F0 /* OldCanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		58587DDA1CE658E100A362F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58587DE31CE65F4700A362F0 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		58587DE41CE65F4700A362F0 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		58587DE61CE674C100A362F0 /* OldCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldCanvasView.h; sourceTree = "<group>"; };
+		58587DE71CE674C100A362F0 /* OldCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldCanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				58587DC91CE658E100A362F0 /* Supporting Files */,
 				58587DE31CE65F4700A362F0 /* CanvasView.h */,
 				58587DE41CE65F4700A362F0 /* CanvasView.m */,
+				58587DE61CE674C100A362F0 /* OldCanvasView.h */,
+				58587DE71CE674C100A362F0 /* OldCanvasView.m */,
 			);
 			path = "Finger Paint";
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				58587DCE1CE658E100A362F0 /* AppDelegate.m in Sources */,
 				58587DE51CE65F4700A362F0 /* CanvasView.m in Sources */,
 				58587DCB1CE658E100A362F0 /* main.m in Sources */,
+				58587DE81CE674C100A362F0 /* OldCanvasView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
