@@ -15,6 +15,10 @@
 		58587DD91CE658E100A362F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58587DD71CE658E100A362F0 /* LaunchScreen.storyboard */; };
 		58587DE51CE65F4700A362F0 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58587DE41CE65F4700A362F0 /* CanvasView.m */; };
 		58587DE81CE674C100A362F0 /* OldCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58587DE71CE674C100A362F0 /* OldCanvasView.m */; };
+		58587DEE1CE67F0700A362F0 /* GHContextMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58587DED1CE67F0700A362F0 /* GHContextMenuView.m */; };
+		58587DF01CE6830A00A362F0 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 58587DEF1CE6830A00A362F0 /* width.png */; };
+		58587DF21CE6868E00A362F0 /* StrokeDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58587DF11CE6868E00A362F0 /* StrokeDetail.xib */; };
+		58587DF51CE686A400A362F0 /* StrokeDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58587DF41CE686A400A362F0 /* StrokeDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		58587DE41CE65F4700A362F0 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		58587DE61CE674C100A362F0 /* OldCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldCanvasView.h; sourceTree = "<group>"; };
 		58587DE71CE674C100A362F0 /* OldCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldCanvasView.m; sourceTree = "<group>"; };
+		58587DEC1CE67F0700A362F0 /* GHContextMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHContextMenuView.h; sourceTree = "<group>"; };
+		58587DED1CE67F0700A362F0 /* GHContextMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHContextMenuView.m; sourceTree = "<group>"; };
+		58587DEF1CE6830A00A362F0 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
+		58587DF11CE6868E00A362F0 /* StrokeDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrokeDetail.xib; sourceTree = "<group>"; };
+		58587DF31CE686A400A362F0 /* StrokeDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeDetailView.h; sourceTree = "<group>"; };
+		58587DF41CE686A400A362F0 /* StrokeDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeDetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,7 @@
 		58587DC81CE658E100A362F0 /* Finger Paint */ = {
 			isa = PBXGroup;
 			children = (
+				58587DEF1CE6830A00A362F0 /* width.png */,
 				58587DCC1CE658E100A362F0 /* AppDelegate.h */,
 				58587DCD1CE658E100A362F0 /* AppDelegate.m */,
 				58587DCF1CE658E100A362F0 /* ViewController.h */,
@@ -77,6 +88,11 @@
 				58587DE41CE65F4700A362F0 /* CanvasView.m */,
 				58587DE61CE674C100A362F0 /* OldCanvasView.h */,
 				58587DE71CE674C100A362F0 /* OldCanvasView.m */,
+				58587DEC1CE67F0700A362F0 /* GHContextMenuView.h */,
+				58587DED1CE67F0700A362F0 /* GHContextMenuView.m */,
+				58587DF11CE6868E00A362F0 /* StrokeDetail.xib */,
+				58587DF31CE686A400A362F0 /* StrokeDetailView.h */,
+				58587DF41CE686A400A362F0 /* StrokeDetailView.m */,
 			);
 			path = "Finger Paint";
 			sourceTree = "<group>";
@@ -146,8 +162,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58587DF01CE6830A00A362F0 /* width.png in Resources */,
 				58587DD91CE658E100A362F0 /* LaunchScreen.storyboard in Resources */,
 				58587DD61CE658E100A362F0 /* Assets.xcassets in Resources */,
+				58587DF21CE6868E00A362F0 /* StrokeDetail.xib in Resources */,
 				58587DD41CE658E100A362F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58587DEE1CE67F0700A362F0 /* GHContextMenuView.m in Sources */,
+				58587DF51CE686A400A362F0 /* StrokeDetailView.m in Sources */,
 				58587DD11CE658E100A362F0 /* ViewController.m in Sources */,
 				58587DCE1CE658E100A362F0 /* AppDelegate.m in Sources */,
 				58587DE51CE65F4700A362F0 /* CanvasView.m in Sources */,
